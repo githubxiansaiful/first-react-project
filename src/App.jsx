@@ -3,6 +3,7 @@ import reactLogo from './assets/react.svg'
 import viteLogo from '/vite.svg'
 import './App.css'
 import Team from './Team'
+import Users from './Users'
 
 function App() {
 
@@ -19,6 +20,7 @@ function App() {
 
   return (
     <>
+      <Users></Users>
       <Team></Team>
       <h3>First React Project- Practice</h3>
       <button onClick={handleClick}>Click Here</button>
